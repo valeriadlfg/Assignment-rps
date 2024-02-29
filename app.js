@@ -58,7 +58,7 @@ const game = () => {
     const compareHands = (playerChoice, computerChoice) => {
         const winner = document.querySelector(".winner");
         if(playerChoice === computerChoice) {
-            winner.textContent = "It is a tie";
+            winner.textContent = "Its a tie!";
             return;
         }
 if (playerChoice === "rock") {
